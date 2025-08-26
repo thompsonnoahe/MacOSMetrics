@@ -1,5 +1,5 @@
 {
-  "name": "macos-metrics",
+  "name": "@thompsonnoahe/macos-metrics",
   "version": "1.0.0",
   "description": "Node.js native addon for macOS GPU metrics using N-API and Rust",
   "main": "index.js",
