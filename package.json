@@ -1,6 +1,6 @@
 {
   "name": "@thompsonnoahe/macos-metrics",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Node.js native addon for macOS GPU metrics using N-API and Rust",
   "main": "index.js",
   "repository": {
@@ -105,7 +105,7 @@
   },
   "packageManager": "yarn@4.9.3",
   "optionalDependencies": {
-    "@thompsonnoahe/macos-metrics-darwin-x64": "1.0.5",
-    "@thompsonnoahe/macos-metrics-darwin-arm64": "1.0.5"
+    "@thompsonnoahe/macos-metrics-darwin-x64": "1.0.6",
+    "@thompsonnoahe/macos-metrics-darwin-arm64": "1.0.6"
   }
 }
