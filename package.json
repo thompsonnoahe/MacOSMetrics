@@ -1,6 +1,6 @@
 {
   "name": "@thompsonnoahe/macos-metrics",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Node.js native addon for macOS GPU metrics using N-API and Rust",
   "main": "index.js",
   "repository": {
@@ -8,6 +8,9 @@
     "url": "git+ssh://git@github.com/napi-rs/package-template.git"
   },
   "license": "MIT",
+  "os": [
+    "darwin"
+  ],
   "browser": "browser.js",
   "keywords": [
     "napi-rs",
@@ -100,5 +103,9 @@
     "singleQuote": true,
     "arrowParens": "always"
   },
-  "packageManager": "yarn@4.9.3"
+  "packageManager": "yarn@4.9.3",
+  "optionalDependencies": {
+    "@thompsonnoahe/macos-metrics-darwin-x64": "1.0.5",
+    "@thompsonnoahe/macos-metrics-darwin-arm64": "1.0.5"
+  }
 }
